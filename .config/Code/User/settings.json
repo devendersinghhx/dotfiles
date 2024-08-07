@@ -1,0 +1,16 @@
+{
+    "window.titleBarStyle": "custom",
+    "editor.fontSize": 18,
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "workbench.productIconTheme": "fluent-icons",
+    "window.zoomLevel": 0.5,
+    "workbench.colorTheme": "Houston",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
+    "workbench.iconTheme": "vscode-icons"
+}
