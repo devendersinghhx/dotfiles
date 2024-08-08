@@ -12,5 +12,7 @@
     "terminal.integrated.shell.linux": "/bin/zsh",
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "none",
+    "redhat.telemetry.enabled": true
 }
