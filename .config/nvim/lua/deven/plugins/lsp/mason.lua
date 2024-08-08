@@ -40,6 +40,7 @@ return {
 				{ "vim-language-server" },
 				{ "stylua" },
 				{ "pyright" },
+				{ "isort" },
 				{ "black" },
 				{ "eslint_d" },
 				{ "eslint-lsp" },
