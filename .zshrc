@@ -104,11 +104,3 @@ alias tmux='tmux -u'
 #luarocks
 export PATH="/usr/bin/lua51:$PATH"
 export PATH="/usr/local/bin/luarocks:$PATH"
-
-
-
-
-#Source File
-#echo 'source ~/.config/zshrc/.zshrc' > ~/.zshrc
-#source ~/.zshrc
-
