@@ -73,11 +73,13 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 # Aliases
 alias ls='ls --color'
 alias ll='ls -l'
+alias la='ls -la'
 alias c='clear'
 alias pacman='sudo pacman'
 alias tmux='tmux -u'
 alias btop='btop --utf-force'
 alias ff='fastfetch'
+alias open='xdg-open'
 
 # Aliases for websites
 alias ta='xdg-open https://calendar.google.com/calendar/u/2/r/tasks'
