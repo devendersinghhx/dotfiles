@@ -17,10 +17,6 @@
     },
     "files.autoSave": "afterDelay",
     "editor.minimap.enabled": false,
-    "animations.Install-Method": "Apc Customize UI++",
-    "apc.imports": [
-        "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
-    ],
     "window.titleBarStyle": "custom",
     "explorer.confirmDelete": false,
     "workbench.iconTheme": "material-icon-theme",
