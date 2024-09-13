@@ -8,7 +8,6 @@ keymap("n", "<leader>q", ":q<cr>", { desc = "Quit the current file", noremap = t
 keymap("n", "<leader>Q", ":qa<cr>", { desc = "Force quit all files", noremap = true, silent = true })
 keymap("n", "<leader>w", ":w<cr>", { desc = "Save the current file", noremap = true, silent = true })
 keymap("n", "<leader>W", ":wa<cr>", { desc = "Save all open files", noremap = true, silent = true })
-keymap("n", "<leader>wq", ":wq<cr>", { desc = "Save and quit the current file", noremap = true, silent = true })
 keymap("n", "<leader>M", ":messages<cr>", { desc = "Show message history", noremap = true, silent = true })
 
 -- clear search highlights

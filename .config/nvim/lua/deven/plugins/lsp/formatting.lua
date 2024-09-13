@@ -8,11 +8,14 @@ return {
 			formatters_by_ft = {
 				lua = { "stylua" },
 				python = { "isort", "black" },
+				c = { "clang-format" },
+				cpp = { "clang-format" },
+				html = { "prettier" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
 				async = false,
-				timeout_ms = 1000,
+				timeout_ms = 500,
 			},
 		})
 
@@ -20,7 +23,7 @@ return {
 			conform.format({
 				lsp_fallback = true,
 				async = false,
-				timeout_ms = 1000,
+				timeout_ms = 500,
 			})
 		end, { desc = "Format Manually" })
 	end,
