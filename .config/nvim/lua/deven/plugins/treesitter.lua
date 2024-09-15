@@ -17,6 +17,8 @@ return {
 				"html",
 				"css",
 				"gitignore",
+				"regex",
+				"bash",
 			},
 			sync_install = false,
 			auto_install = true,
