@@ -6,7 +6,7 @@
     "code-runner.saveFileBeforeRun": true,
     "workbench.productIconTheme": "fluent-icons",
     "window.zoomLevel": 0.5,
-    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.colorTheme": "Catppuccin Mocha",
     "terminal.integrated.shell.linux": "/bin/zsh",
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
@@ -33,5 +33,6 @@
     },
     "editor.quickSuggestions": {
     "strings": true
-    }
+    },
+    "glassit.alpha": 220
 }
