@@ -11,6 +11,7 @@ return {
 				c = { "clang-format" },
 				cpp = { "clang-format" },
 				html = { "prettier" },
+				css = { "prettier" },
 			},
 			format_on_save = {
 				lsp_fallback = true,

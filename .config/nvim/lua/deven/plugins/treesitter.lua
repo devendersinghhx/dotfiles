@@ -19,6 +19,8 @@ return {
 				"gitignore",
 				"regex",
 				"bash",
+				"json",
+				"jsonc",
 			},
 			sync_install = false,
 			auto_install = true,
