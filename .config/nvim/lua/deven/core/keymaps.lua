@@ -17,7 +17,7 @@ keymap("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 keymap("n", "<leader>pv", vim.cmd.Ex)
 
 -- Copy to Clipboard
-keymap("v", "<leader>y", '"+y')
+keymap("v", "<leader>y", '"+y', { desc = "Copy To Clipboard", noremap = true, silent = false })
 
 -- window management
 keymap("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically

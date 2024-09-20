@@ -15,9 +15,10 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	{ import = "deven.plugins" },
-	{ import = "deven.plugins.lsp" },
-}, {
+	spec = {
+		{ import = "deven.plugins" },
+		{ import = "deven.plugins.lsp" },
+	},
 	checker = {
 		enabled = true,
 		notify = false,

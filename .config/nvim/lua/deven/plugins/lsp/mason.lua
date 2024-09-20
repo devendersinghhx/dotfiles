@@ -26,7 +26,8 @@ return {
 		mason_lspconfig.setup({
 			ensure_installed = {
 				"lua_ls",
-				"clangd",
+				"cssls",
+				"marksman",
 			},
 			-- auto installation
 			automatic_installation = true,
@@ -47,6 +48,16 @@ return {
 				{ "eslint-lsp" },
 				{ "prettier" },
 				{ "clang-format" },
+				{ "clangd" },
+				{ "html-lsp" },
+				{ "emmet-ls" },
+				{ "css-lsp" },
+				{ "autopep8" },
+				{ "json-lsp" },
+				{ "typescript-language-server" },
+				{ "js-debug-adapter" },
+				{ "node-debug2-adapter" },
+				{ "tailwindcss-language-server" },
 			},
 
 			auto_update = true,

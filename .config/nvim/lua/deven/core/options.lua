@@ -1,4 +1,15 @@
+local cmd = vim.cmd -- to execute Vim commands e.g. cmd('pwd')``
 local opt = vim.opt -- for conciseness
+
+cmd("let g:netrw_liststyle = 3")
+cmd("filetype plugin indent on")
+cmd([[highlight WinSeparator guibg = None]])
+
+-- Appearance
+opt.termguicolors = true -- enable 24-bit RGB colors
+
+-- Files & Others
+opt.fileencoding = "utf-8" -- the encoding written to file
 
 -- line numbers
 opt.relativenumber = true -- show relative line numbers

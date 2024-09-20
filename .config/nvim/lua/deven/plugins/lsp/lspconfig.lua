@@ -36,5 +36,42 @@ return {
 				},
 			},
 		})
+
+		-- clangd
+		lspconfig.clangd.setup({
+			capabilities = capabilities,
+			cmd = {
+				"clangd",
+				"--offset-encoding=utf-16",
+			},
+		})
+
+		-- html
+		lspconfig.html.setup({
+			capabilities = capabilities,
+		})
+
+		-- configure emmet language server
+		lspconfig.emmet_ls.setup({
+			capabilities = capabilities,
+			filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
+		})
+
+		-- CSS LS
+		lspconfig.cssls.setup({
+			capabilities = capabilities,
+		})
+
+		-- tsserver
+		lspconfig.ts_ls.setup({
+			capabilities = capabilities,
+		})
+
+		-- Tailwind
+		-- Support for tailwind auto completion
+		-- install the tailwind server : "sudo npm install -g @tailwindcss/language-server"
+		lspconfig.tailwindcss.setup({
+			capabilities = capabilities,
+		})
 	end,
 }
