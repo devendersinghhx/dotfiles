@@ -6,7 +6,7 @@
     "code-runner.saveFileBeforeRun": true,
     "workbench.productIconTheme": "fluent-icons",
     "window.zoomLevel": 0.5,
-    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.colorTheme": "Catppuccin Macchiato",
     "terminal.integrated.shell.linux": "/bin/zsh",
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
@@ -15,7 +15,7 @@
     "github.copilot.advanced": {
         
     },
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "onFocusChange",
     "editor.minimap.enabled": false,
     "window.titleBarStyle": "custom",
     "explorer.confirmDelete": false,
@@ -34,5 +34,11 @@
     "editor.quickSuggestions": {
     "strings": true
     },
-    "glassit.alpha": 220
+    {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true
+    }
 }
