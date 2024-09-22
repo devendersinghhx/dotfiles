@@ -77,7 +77,6 @@ alias open='xdg-open'
 alias xx='exit'
 alias ai='tgpt'
 
-
 # Aliases for websites
 alias ta='xdg-open https://calendar.google.com/calendar/u/2/r/tasks'
 alias aw='xdg-open https://wiki.archlinux.org/title/Main_page'
@@ -102,6 +101,7 @@ export NVM_DIR="$HOME/.nvm"
 # Set the default editor
 export EDITOR=nvim
 export VISUAL=nvim
+
 #luarocks
 export PATH="/usr/bin/lua51:$PATH"
 export PATH="/usr/local/bin/luarocks:$PATH"
