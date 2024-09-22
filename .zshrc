@@ -64,7 +64,8 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
-alias ls='ls --color'
+#alias ls='ls --color'
+alias ls='eza --icons'
 alias ll='ls -l'
 alias la='ls -la'
 alias c='clear'
@@ -73,6 +74,9 @@ alias tmux='tmux -u'
 alias btop='btop --utf-force'
 alias ff='fastfetch'
 alias open='xdg-open'
+alias xx='exit'
+alias ai='tgpt'
+
 
 # Aliases for websites
 alias ta='xdg-open https://calendar.google.com/calendar/u/2/r/tasks'
@@ -95,9 +99,11 @@ export NVM_DIR="$HOME/.nvm"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Set the default editor
 export EDITOR=nvim
-
+export VISUAL=nvim
 #luarocks
 export PATH="/usr/bin/lua51:$PATH"
 export PATH="/usr/local/bin/luarocks:$PATH"
+
 export PATH="$HOME/.cargo/bin:$PATH"
