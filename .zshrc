@@ -107,3 +107,10 @@ export PATH="/usr/bin/lua51:$PATH"
 export PATH="/usr/local/bin/luarocks:$PATH"
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# bun completions
+[ -s "/home/devender/.bun/_bun" ] && source "/home/devender/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
