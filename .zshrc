@@ -76,6 +76,8 @@ alias ff='fastfetch'
 alias open='xdg-open'
 alias xx='exit'
 alias ai='tgpt'
+alias vv='nvim .'
+alias v='nvim'
 
 # Aliases for websites
 alias ta='xdg-open https://calendar.google.com/calendar/u/2/r/tasks'
