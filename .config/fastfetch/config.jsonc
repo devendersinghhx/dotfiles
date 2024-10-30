@@ -1,0 +1,123 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "$(find \"${XDG_CONFIG_HOME:-$HOME/.config}/fastfetch/pngs/\" -name \"*.png\" | sort -R | head -1)",
+        "height": 24
+    },
+    "display": {
+        "separator": "   ",
+	"color": "Green"
+    },
+    "modules": [
+        {
+            "type": "custom", // HardwareStart
+            "format": "┌───────────────── \u001b[1mHardware Information\u001b[0m ─────────────────┐" // \u001b is \033, or \e
+        },
+        {
+            "type": "host",
+            "key": "  󰌢 Host"
+        },
+        {
+            "type": "Battery",
+            "key": "  󰁹 Battery"
+        },
+        {
+            "type": "cpu",
+            "key": "   CPU"
+        },
+        {
+            "type": "gpu",
+            "detectionMethod": "pci",
+            "key": "   GPU"
+        },
+        {
+            "type": "display",
+            "key": "  󱄄 Display"
+        },
+        {
+            "type": "memory",
+            "key": "   RAM"
+        },
+        {
+            "type": "Disk",
+            "key": "  󰋊 Storage"
+        },
+	    {
+            "type": "Swap",
+            "key": "  󰋊 Swap"
+        },
+        {
+            "type": "custom", // SoftwareStart
+            "format": "├───────────────── \u001b[1mSoftware Information\u001b[0m ─────────────────┤"
+        },
+	{
+            "type": "os",
+            "key": "   OS" // Just get your distro's logo off nerdfonts.com,
+        },
+        {
+            "type": "kernel",
+            "key": "   Kernel",
+            "format": "{1} {2}"
+        },
+	{
+            "type": "DE",
+            "key": "   DE",
+        },
+        {
+            "type": "wm",
+            "key": "   WM"
+        },
+        {
+            "type": "shell",
+            "key": "   Shell"
+        },
+	{
+            "type": "Packages",
+            "key": "  󰏔 Packages"
+        },
+	{
+            "type": "custom", // SoftwareStart
+            "format": "├─────────────────────── \u001b[1mNetwork\u001b[0m ────────────────────────┤"
+        },
+	{
+            "type": "PublicIp",
+            "key": "  󰩟 Pub-IP"
+        },
+	{
+            "type": "LocalIp",
+            "key": "  󰩠 Loc-IP"
+        },
+	{
+            "type": "Wifi",
+            "key": "  󰖩 Wifi"
+        },
+        {
+            "type": "DNS",
+            "key": "  󰇖 DNS"
+        },
+        {
+            "type": "custom",
+            "format": "|────────────────────\u001b[1m Uptime/Age \u001b[0m────────────────────────|"
+        },
+        {
+            "type": "command",
+            "key": "  OS Age ",
+            "keyColor": "Green",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+        {
+            "type": "uptime",
+            "key": "  Uptime ",
+            "keyColor": "Green"
+        },
+        {
+            "type": "custom", // InformationEnd
+            "format": "└────────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "circle"
+        }
+    ]
+}

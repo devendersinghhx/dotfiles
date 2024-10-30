@@ -1,0 +1,17 @@
+# BEGIN_KITTY_THEME
+# citylights
+include current-theme.conf
+# END_KITTY_THEME
+
+# Configure the font
+font_family JetBrainsMono Nerd Font
+#font_family FiraCode Nerd Font
+#font_family CaskaydiaMono Nerd Font
+font_size 14
+font_antialiasing on
+
+# Define the key binding to toggle fullscreen mode
+map ctrl+f toggle_fullscreen
+
+#background
+background_opacity 0.7
