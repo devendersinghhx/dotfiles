@@ -79,9 +79,9 @@ alias ai='tgpt'
 alias vv='nvim .'
 alias v='nvim'
 alias hx='helix'
+alias yz='yazi'
 
 # Aliases for websites
-alias ta='xdg-open https://calendar.google.com/calendar/u/2/r/tasks'
 alias aw='xdg-open https://wiki.archlinux.org/title/Main_page'
 
 # Shell integrations
@@ -120,3 +120,4 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 catnap
+#cermic 2 ~/cermic-tiny-art-repo/images
