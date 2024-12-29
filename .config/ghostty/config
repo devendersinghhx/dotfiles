@@ -1,9 +1,10 @@
 # Theme
 theme = catppuccin-mocha
+window-theme = "ghostty"
 
-mouse-hide-while-typing = true
 background-opacity = 0.8
 gtk-titlebar = false
+#cursor-style = block
 
 # Font
 font-size = 15
@@ -12,6 +13,24 @@ font-family = JetBrainsMono Nerd Font
 # Window Padding
 window-padding-x = 0
 window-padding-y = 0
+window-padding-balance = true
+window-save-state = always
+window-padding-color = extend
 
 # KeyBinds
 keybind = ctrl+f=toggle_fullscreen
+keybind = ctrl+shift+/=new_split:right
+keybind = ctrl+shift+-=new_split:down
+keybind = ctrl+shift+q=close_surface
+keybind = ctrl+shift+equal=equalize_splits
+keybind = ctrl+shift+;=toggle_window_decorations
+
+# Mouse Behavior
+mouse-hide-while-typing = true
+#mouse-scroll-multiplier = 2
+#shell-integration-features = no-cursor
+
+# Clipboard and Selection
+clipboard-read = "allow"
+clipboard-paste-protection = true
+copy-on-select = false
