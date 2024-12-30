@@ -14,6 +14,7 @@ return {
 				css = { "prettier", "prettierd" },
 				javascript = { "prettier", "prettierd" },
 				typescript = { "prettier", "prettierd" },
+				cpp = { "clang-format" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
