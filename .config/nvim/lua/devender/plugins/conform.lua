@@ -10,6 +10,10 @@ return {
 				python = { "isort", "black" },
 				rust = { "rustfmt" },
 				sh = { "shfmt" },
+				html = { "prettier", "prettierd" },
+				css = { "prettier", "prettierd" },
+				javascript = { "prettier", "prettierd" },
+				typescript = { "prettier", "prettierd" },
 			},
 			format_on_save = {
 				lsp_fallback = true,

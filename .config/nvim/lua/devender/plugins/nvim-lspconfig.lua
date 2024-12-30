@@ -37,6 +37,18 @@ return {
 			},
 		})
 
+		lspconfig.ts_ls.setup({
+			capabilities = capabilities,
+		})
+
+		lspconfig.tailwindcss.setup({
+			capabilities = capabilities,
+		})
+
+		lspconfig.eslint.setup({
+			capabilities = capabilities,
+		})
+
 		--   	lspconfig.rust_analyzer.setup({
 		-- 	capabilities = capabilities,
 		-- })
