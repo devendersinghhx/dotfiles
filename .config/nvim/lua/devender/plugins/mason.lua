@@ -43,6 +43,11 @@ return {
 				"prettierd",
 				"rust-analyzer", -- Rust LSP
 				"rustfmt", -- Rust Formatter
+				"codelldb",
+				"isort",
+				"black",
+				"bashls",
+				"shfmt",
 			},
 			auto_update = true,
 			run_on_start = true,
