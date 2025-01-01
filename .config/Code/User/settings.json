@@ -31,8 +31,12 @@
     "editor.quickSuggestions": {
     "strings": true
     },
-    "workbench.colorTheme": "Catppuccin Macchiato",
     "window.customTitleBarVisibility": "auto",
     "php.format.codeStyle": "PER",
     "editor.fontSize": 16,
+    "workbench.iconTheme": "material-icon-theme",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "workbench.colorTheme": "Catppuccin Macchiato",
 }
