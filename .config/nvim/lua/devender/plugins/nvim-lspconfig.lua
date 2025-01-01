@@ -121,7 +121,7 @@ return {
 			},
 		})
 
-		--   	lspconfig.rust_analyzer.setup({
+		-- lspconfig.rust_analyzer.setup({
 		-- 	capabilities = capabilities,
 		-- })
 	end,
