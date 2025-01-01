@@ -1,14 +1,15 @@
 # Theme
-theme = catppuccin-mocha
-window-theme = "ghostty"
+theme = catppuccin-macchiato
+#window-theme = "ghostty"
 
-background-opacity = 0.8
-gtk-titlebar = false
+fullscreen = true
+background-opacity = 1
+gtk-titlebar = false 
 #cursor-style = block
 
 # Font
 font-size = 15
-font-family = JetBrainsMono Nerd Font
+#font-family = JetBrainsMono Nerd Font
 
 # Window Padding
 window-padding-x = 0
@@ -17,6 +18,10 @@ window-padding-balance = true
 window-save-state = always
 window-padding-color = extend
 
+# Window Size
+window-width = 120
+window-height = 30
+
 # KeyBinds
 keybind = ctrl+f=toggle_fullscreen
 keybind = ctrl+shift+/=new_split:right
@@ -24,6 +29,14 @@ keybind = ctrl+shift+-=new_split:down
 keybind = ctrl+shift+q=close_surface
 keybind = ctrl+shift+equal=equalize_splits
 keybind = ctrl+shift+;=toggle_window_decorations
+keybind = ctrl+b=scroll_to_bottom
+keybind = ctrl+t=scroll_to_top
+
+# Tab Behavior
+keybind = ctrl+shift+n=new_tab
+keybind = ctrl+shift+k=next_tab
+keybind = ctrl+shift+j=previous_tab
+#keybind = ctrl+shift+l=last_tab
 
 # Mouse Behavior
 mouse-hide-while-typing = true
