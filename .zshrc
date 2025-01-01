@@ -119,7 +119,6 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
-catnap
 
 # Yazi Quick Open
 function y() {
@@ -130,3 +129,7 @@ function y() {
 	fi
 	rm -f -- "$tmp"
 }
+
+# Startups
+#catnap
+colorscript -e crunchbang-mini
