@@ -38,5 +38,5 @@
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
-    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.colorTheme": "Catppuccin Mocha",
 }
