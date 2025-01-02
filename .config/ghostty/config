@@ -1,5 +1,5 @@
 # Theme
-theme = catppuccin-macchiato
+theme = catppuccin-mocha
 #window-theme = "ghostty"
 
 fullscreen = true
@@ -23,7 +23,7 @@ window-width = 120
 window-height = 30
 
 # KeyBinds
-keybind = ctrl+f=toggle_fullscreen
+#keybind = ctrl+f=toggle_fullscreen
 keybind = ctrl+shift+/=new_split:right
 keybind = ctrl+shift+-=new_split:down
 keybind = ctrl+shift+q=close_surface
