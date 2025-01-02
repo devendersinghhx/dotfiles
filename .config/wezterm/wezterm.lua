@@ -28,7 +28,9 @@ config.initial_rows = 30
 -- Miscellaneous settings
 config.max_fps = 144
 config.prefer_egl = true
-config.window_background_opacity = 0.8
+config.window_background_opacity = 1
+config.enable_kitty_graphics = true
+config.automatically_reload_config = true
 
 -- Toggle FullScreen
 config.keys = {
