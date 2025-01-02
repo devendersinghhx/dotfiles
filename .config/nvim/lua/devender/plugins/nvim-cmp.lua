@@ -49,12 +49,14 @@ return {
 				{ name = "buffer" }, -- text within current buffer
 				{ name = "path" }, -- file system paths
 				{ name = "git" }, -- Git files.
+				{ name = "tailwindcss-colorizer-cmp" },
 			}),
 
 			formatting = {
 				format = lspkind.cmp_format({
 					with_text = true,
 					maxwidth = 50,
+					before = require("tailwindcss-colorizer-cmp").formatter,
 				}),
 			},
 		})

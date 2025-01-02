@@ -2,6 +2,7 @@ return {
 	"nvim-lualine/lualine.nvim",
 	dependencies = { "nvim-tree/nvim-web-devicons" },
 	config = function()
+		local lazy_status = require("lazy.status")
 		require("lualine").setup({
 			options = {
 				-- NOTE: Change theme to `auto` if you are using different colorscheme
@@ -52,6 +53,12 @@ return {
 					},
 				},
 				lualine_x = {
+					{
+						lazy_status.updates,
+						cond = lazy_status.has_updates,
+						color = { fg = "#ff9e64" },
+						separator = "|",
+					},
 					{
 						function()
 							local msg = "No Active Lsp"

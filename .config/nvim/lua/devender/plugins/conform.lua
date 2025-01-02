@@ -14,6 +14,9 @@ return {
 				css = { "prettier", "prettierd" },
 				javascript = { "prettier", "prettierd" },
 				typescript = { "prettier", "prettierd" },
+				javascriptreact = { { "prettierd", "prettier" } },
+				typescriptreact = { { "prettierd", "prettier" } },
+				json = { { "prettierd", "prettier" } },
 				cpp = { "clang-format" },
 			},
 			format_on_save = {

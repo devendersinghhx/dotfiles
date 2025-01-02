@@ -56,6 +56,7 @@ return {
 				"emmet_ls",
 				"clangd",
 				"clang-format",
+				"eslint_d",
 			},
 			auto_update = true,
 			run_on_start = true,
