@@ -81,6 +81,18 @@ alias v='nvim'
 alias hx='helix'
 #alias yz='yazi'
 
+# Dirs
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+
+# Eza
+alias l="eza -l --icons --git -a"
+alias lt="eza --tree --level=2 --long --icons --git"
+alias ltree="eza --tree --level=2  --icons --git"
+
 # Aliases for websites
 alias aw='xdg-open https://wiki.archlinux.org/title/Main_page'
 
@@ -105,18 +117,15 @@ export NVM_DIR="$HOME/.nvm"
 export EDITOR=nvim
 export VISUAL=nvim
 
-#luarocks
+# Exports
 export PATH="/usr/bin/lua51:$PATH"
 export PATH="/usr/local/bin/luarocks:$PATH"
-
 export PATH="$HOME/.cargo/bin:$PATH"
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
 
 # bun completions
 [ -s "/home/devender/.bun/_bun" ] && source "/home/devender/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
@@ -131,5 +140,5 @@ function y() {
 }
 
 # Startups
-#catnap
 colorscript -e crunchbang-mini
+#catnap
