@@ -23,9 +23,9 @@ packages  = {icon = " ", name = "packages", color = "(GN)"}  # WARNING: Resou
 
 #gpu       = {icon = "󱔐 ", name = "gpu", color = "(MA)"}      # WARNING: Resource Intensive
 #cpu       = {icon = " ", name = "cpu", color = "(RD)"}
-#disk_0    = {icon = " ", name = "disk", color = "(GN)"}
+disk_0    = {icon = " ", name = "disk", color = "(GN)"}
 #memory    = {icon = " ", name = "memory", color = "(YW)"}
-#battery    = {icon = " ", name = "battery", color = "(GN)"}
+battery    = {icon = " ", name = "battery", color = "(GN)"}
 sep_color = "SEPARATOR"
 colors    = {icon = " ", name = "colors", color = "!DT!", symbol = ""}
 
