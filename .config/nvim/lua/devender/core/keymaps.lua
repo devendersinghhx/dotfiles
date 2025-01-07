@@ -17,7 +17,7 @@ keymap("n", "<leader>q", "<cmd> q <CR>", opts)
 keymap("n", "<leader>M", ":messages<cr>", { desc = "Show Messages" }, opts)
 
 -- clear search highlights
-keymap("n", "<F12>", "<cmd>nohl<CR>", { desc = "Clear search highlights" })
+keymap("n", "<ESC>", "<cmd>nohl<CR>", { desc = "Clear search highlights" })
 
 -- Move around in visual mode
 keymap("v", "J", ":m '>+1<CR>gv=gv", { desc = "Down In Visual" }, opts)
@@ -68,7 +68,6 @@ keymap("n", "<leader>tn", ":tabn<CR>", opts) --  go to next tab
 keymap("n", "<leader>tp", ":tabp<CR>", opts) --  go to previous tab
 
 -- Toggle line wrapping
-
 keymap("n", "<leader>lw", "<cmd>set wrap!<CR>", opts)
 
 -- Stay in indent mode

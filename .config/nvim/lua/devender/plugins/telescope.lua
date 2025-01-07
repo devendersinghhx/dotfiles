@@ -15,6 +15,11 @@ return {
 			local actions = require("telescope.actions")
 
 			telescope.setup({
+				pickers = {
+					colorscheme = {
+						enable_preview = true,
+					},
+				},
 				defaults = {
 					layout_strategy = "horizontal",
 					layout_config = {

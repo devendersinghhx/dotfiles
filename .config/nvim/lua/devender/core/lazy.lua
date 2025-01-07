@@ -29,8 +29,8 @@ require("lazy").setup({
 	ui = {
 		border = "double", -- single / double / rounded
 		size = {
-			width = 0.7,
-			height = 0.7,
+			width = 0.8,
+			height = 0.8,
 		},
 	},
 })
