@@ -1,4 +1,4 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Enable Powerlevel11k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
@@ -97,7 +97,7 @@ alias l.='eza -a | grep "^\." '
 # System Update & Package Management
 alias refresh='pacman -Syy'
 alias update='pacman -Syu'
-alias fullupdate='sudo pacman -Syyu'
+alias fullupdate='pacman -Syyu'
 alias install='pacman -S'
 
 # GIT Alias
