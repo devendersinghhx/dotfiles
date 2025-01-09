@@ -16,10 +16,12 @@
     },
     "base_keymap": "VSCode",
     "vim_mode": true,
-    "ui_font_size": 16,
+    "ui_font_size": 17,
     "buffer_font_size": 18,
     "buffer_font_family": "JetBrainsMono Nerd Font",
-    "buffer_line_height": "standard",
+    "buffer_line_height": {
+        "custom": 1.5
+    },
     "relative_line_numbers": true,
     "cursor_blink": false,
     "tab_size": 4,
@@ -28,7 +30,7 @@
     "confirm_quit": true,
     "scrollbar": {
         "git_diff": true,
-        "show": "always"
+        "show": "never"
     },
     "search": {
         "regex": true
@@ -36,12 +38,22 @@
     "theme": {
         "mode": "system",
         "light": "One Light",
-        "dark": "Catppuccin Mocha"
+        "dark": "Catppuccin Mocha - No Italics"
     },
     "gutter": {
         "code_actions": true,
         "line_numbers": true,
         "folds": true,
         "runnables": true
+    },
+    "terminal": {
+        "font_family": "JetBrainsMono Nerd Font",
+        "font_size": 15,
+        "line_height": {
+            "custom": 15
+        }
+    },
+    "inlay_hints": {
+        "enabled": false
     }
 }
