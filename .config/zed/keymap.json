@@ -6,16 +6,36 @@
 // To see the default key bindings run `zed: open default keymap`
 // from the command palette.
 [
-  {
-    "context": "Workspace",
-    "bindings": {
-      // "shift shift": "file_finder::Toggle"
+    {
+        "context": "Workspace",
+        "bindings": {
+            // "shift shift": "file_finder::Toggle"
+        }
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            // "j k": ["workspace::SendKeystrokes", "escape"]
+        }
+    },
+    {
+        "context": "Editor && vim_mode == visual && !VimWaiting && !VimObject",
+        "bindings": {
+            "shift-j": "editor::MoveLineDown",
+            "shift-k": "editor::MoveLineUp"
+        }
+    },
+    {
+        "context": "Editor && VimControl && !VimWaiting && !menu",
+        "bindings": {
+            "shift-k": "editor::Hover",
+            "space l a": "editor::ToggleCodeActions",
+            "space l r": "editor::Rename",
+            "space l f": "editor::Format",
+            "space x x": "diagnostics::Deploy",
+            "space f": "file_finder::Toggle",
+            "space e": "workspace::ToggleLeftDock",
+            "space p": "outline::Toggle"
+        }
     }
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      // "j k": ["workspace::SendKeystrokes", "escape"]
-    }
-  }
 ]
