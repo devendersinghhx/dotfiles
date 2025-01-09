@@ -35,7 +35,12 @@
             "space x x": "diagnostics::Deploy",
             "space f": "file_finder::Toggle",
             "space e": "workspace::ToggleLeftDock",
-            "space p": "outline::Toggle"
+            "space p": "outline::Toggle",
+            "space v": "editor::GoToDefinitionSplit",
+            "g c c": "editor::ToggleComments",
+            "g ]": "editor::GoToDiagnostic",
+            "g [": "editor::GoToPrevDiagnostic",
+            "g r": "editor::FindAllReferences"
         }
     }
 ]
