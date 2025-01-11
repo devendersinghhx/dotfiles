@@ -2,8 +2,8 @@
 theme = catppuccin-mocha
 #window-theme = "ghostty"
 
-fullscreen = true
-background-opacity = 1
+#fullscreen = true
+background-opacity = 0.85
 gtk-titlebar = false 
 #cursor-style = block
 
@@ -19,11 +19,11 @@ window-save-state = always
 window-padding-color = extend
 
 # Window Size
-window-width = 120
-window-height = 30
+window-width = 147
+window-height = 37
 
 # KeyBinds
-#keybind = ctrl+f=toggle_fullscreen
+keybind = ctrl+f=toggle_fullscreen
 keybind = ctrl+shift+/=new_split:right
 keybind = ctrl+shift+-=new_split:down
 keybind = ctrl+shift+q=close_surface
