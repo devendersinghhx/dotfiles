@@ -9,26 +9,29 @@
     {
         "context": "Workspace",
         "bindings": {
-            "space f": "file_finder::Toggle"
+            "space f": "file_finder::Toggle",
+            "space w": "workspace::Save"
         }
     },
     {
         "context": "Editor",
         "bindings": {
             // "j k": ["workspace::SendKeystrokes", "escape"]
+            "ctrl-h": "editor::ShowSignatureHelp",
+            "Q": "workspace::CloseAllItemsAndPanes"
         }
     },
     {
         "context": "Editor && vim_mode == visual && !VimWaiting && !VimObject",
         "bindings": {
-            "shift-j": "editor::MoveLineDown",
-            "shift-k": "editor::MoveLineUp"
+            "J": "editor::MoveLineDown",
+            "K": "editor::MoveLineUp"
         }
     },
     {
         "context": "Editor && VimControl && !VimWaiting && !menu",
         "bindings": {
-            "shift-k": "editor::Hover",
+            "shift-h": "editor::Hover",
             "space l a": "editor::ToggleCodeActions",
             "space l r": "editor::Rename",
             "space l f": "editor::Format",
