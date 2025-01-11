@@ -9,7 +9,7 @@
     {
         "context": "Workspace",
         "bindings": {
-            // "shift shift": "file_finder::Toggle"
+            "space f": "file_finder::Toggle"
         }
     },
     {
@@ -33,7 +33,7 @@
             "space l r": "editor::Rename",
             "space l f": "editor::Format",
             "space x x": "diagnostics::Deploy",
-            "space f": "file_finder::Toggle",
+            "space s t": "pane::DeploySearch",
             "space e": "workspace::ToggleLeftDock",
             "space p": "outline::Toggle",
             "space v": "editor::GoToDefinitionSplit",
