@@ -80,6 +80,7 @@ alias vv='nvim .'
 alias v='nvim'
 alias hx='helix'
 #alias yz='yazi'
+alias zed='zeditor'
 
 # Dirs
 alias ..="cd .."
