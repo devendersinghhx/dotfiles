@@ -35,8 +35,8 @@ alias v='nvim'
 alias hx='helix'
 alias zed='zeditor'
 
-alias anaconda1="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia anaconda-navigator"
-
 # HyprPanel Alias
 alias hps='hyprpanel toggleWindow settings-dialog'
 alias tbar='hyprpanel toggleWindow bar-0'
+
+alias anaconda1="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia anaconda-navigator"
