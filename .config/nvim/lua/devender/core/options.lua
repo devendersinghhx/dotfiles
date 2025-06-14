@@ -57,23 +57,22 @@ vim.g.loaded_perl_provider = 0
 vim.g.loaded_ruby_provider = 0
 
 -- Show invisible characters
-vim.opt.list = true
-
+-- vim.opt.list = true
 -- Customize how invisible characters appear
-vim.opt.listchars = {
-	tab = "→ ", -- Show tab as → followed by space
-	trail = "·", -- Show trailing space as ·
-	nbsp = "␣", -- Show non-breaking space as ␣
-	eol = "↴", -- Show end-of-line as ↴
-	extends = "⟩", -- Show line overflow to the right
-	precedes = "⟨", -- Show line overflow to the left
-}
-
+-- vim.opt.listchars = {
+-- 	tab = "→ ", -- Show tab as → followed by space
+-- 	trail = "·", -- Show trailing space as ·
+-- 	nbsp = "␣", -- Show non-breaking space as ␣
+-- 	eol = "↴", -- Show end-of-line as ↴
+-- 	extends = "⟩", -- Show line overflow to the right
+-- 	precedes = "⟨", -- Show line overflow to the left
+-- }
+--
 -- Fill characters (UI elements)
-vim.opt.fillchars = {
-	eob = " ", -- No ~ at end of buffer
-	fold = "─", -- Fold lines use light dash
-	vert = "│", -- Vertical split separator
-	diff = "╱", -- Diff filler lines
-	msgsep = "‾", -- Separator between messages
-}
+-- vim.opt.fillchars = {
+-- 	eob = " ", -- No ~ at end of buffer
+-- 	fold = "─", -- Fold lines use light dash
+-- 	vert = "│", -- Vertical split separator
+-- 	diff = "╱", -- Diff filler lines
+-- 	msgsep = "‾", -- Separator between messages
+-- }

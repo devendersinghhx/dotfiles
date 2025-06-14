@@ -183,6 +183,7 @@ return {
 				-- "black",
 				"ruff",
 				"clang-format",
+				"shfmt",
 			})
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
