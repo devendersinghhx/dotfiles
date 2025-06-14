@@ -11,7 +11,7 @@
     "buffer_font_family": "JetBrainsMono Nerd Font",
     "icon_theme": "Material Icon Theme",
     "ui_font_size": 20,
-    "buffer_font_size": 18,
+    "buffer_font_size": 20,
     "theme": {
         "mode": "system",
         "light": "Everforest Dark",

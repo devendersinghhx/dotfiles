@@ -18,5 +18,11 @@
             "K": "editor::MoveLineUp",
             "J": "editor::MoveLineDown"
         }
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-`": "workspace::ToggleBottomDock"
+        }
     }
 ]
