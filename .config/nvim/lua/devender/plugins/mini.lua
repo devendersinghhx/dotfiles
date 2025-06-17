@@ -3,13 +3,13 @@ return {
 	version = false,
 	config = function()
 		-- Load and setup mini.statusline
-		-- require("mini.statusline").setup({
-		-- 	options = {
-		-- 		theme = "everforest",
-		-- 	},
-		-- })
+		require("mini.statusline").setup({
+			options = {
+				theme = "everforest",
+			},
+		})
 		-- Optional: make statusline global
-		-- vim.o.laststatus = 3
+		vim.o.laststatus = 3
 
 		-- Mini-Pairs
 		require("mini.pairs").setup()

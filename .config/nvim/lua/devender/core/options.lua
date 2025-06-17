@@ -17,6 +17,9 @@ opt.number = true -- shows absolute line number on cursor line (when relative nu
 -- Disable line wrapping
 opt.wrap = false
 
+-- Disable the default mode display (e.g., "-- INSERT --") since a statusline plugin will show it
+opt.showmode = false
+
 -- tabs & indentation
 opt.tabstop = 4 -- 2 spaces for tabs (prettier default)
 opt.softtabstop = 4

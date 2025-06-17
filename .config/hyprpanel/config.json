@@ -6,7 +6,6 @@
   "bar.layouts": {
     "0": {
       "left": [
-        "power",
         "dashboard",
         "workspaces",
         "windowtitle"
@@ -15,7 +14,6 @@
         "clock"
       ],
       "right": [
-        "updates",
         "volume",
         "battery",
         "systray",
@@ -489,9 +487,11 @@
   "scalingPriority": "gdk",
   "theme.font.name": "JetBrainsMono Nerd Font",
   "theme.font.label": "JetBrainsMono Nerd Font",
-  "theme.font.size": "1.1rem",
+  "theme.font.size": "1rem",
   "menus.transition": "crossfade",
   "bar.workspaces.show_icons": false,
   "bar.workspaces.applicationIconOncePerWorkspace": true,
-  "theme.bar.buttons.workspaces.numbered_active_highlight_border": "0.2em"
+  "theme.bar.buttons.workspaces.numbered_active_highlight_border": "0.2em",
+  "menus.media.displayTime": false,
+  "notifications.showActionsOnHover": false
 }
