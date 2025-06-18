@@ -11,8 +11,8 @@ opt.termguicolors = true -- enable 24-bit RGB colors
 opt.fileencoding = "utf-8" -- the encoding written to file
 
 -- line numbers
-opt.relativenumber = true -- show relative line numbers
 opt.number = true -- shows absolute line number on cursor line (when relative number is on)
+opt.relativenumber = true -- show relative line numbers
 
 -- Disable line wrapping
 opt.wrap = false
@@ -34,7 +34,7 @@ opt.splitright = true -- split vertical window to the right
 opt.splitbelow = true -- split horizontal window to the bottom
 
 -- Show line under cursor
-opt.cursorline = true
+opt.cursorline = false
 
 -- stores undos between sessions
 opt.undofile = true

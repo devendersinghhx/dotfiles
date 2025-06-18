@@ -16,6 +16,7 @@ return {
 					"rust",
 					"cmake",
 					"gitignore",
+					"markdown",
 					"json",
 					"jsonc",
 					"html",
