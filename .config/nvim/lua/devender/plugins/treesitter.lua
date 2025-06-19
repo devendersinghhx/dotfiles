@@ -11,6 +11,7 @@ return {
 					"lua",
 					"python",
 					"regex",
+					"latex",
 					"c",
 					"cpp",
 					"rust",
