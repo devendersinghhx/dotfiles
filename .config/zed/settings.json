@@ -1,4 +1,10 @@
 {
+    "terminal": {
+        "dock": "left"
+    },
+    "project_panel": {
+        "dock": "left"
+    },
     "vim_mode": true,
     "autosave": {
         "after_delay": {
@@ -21,7 +27,8 @@
         "html": true,
         "java": true,
         "material-icon-theme": true,
-        "everforest": true
+        "everforest": true,
+        "python-snippets": true
     },
     "git_diff": true,
     "show_completions_on_input": true,
