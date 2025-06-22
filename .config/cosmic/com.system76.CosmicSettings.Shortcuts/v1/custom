@@ -1,0 +1,21 @@
+{
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "a",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "space",
+    ): System(AppLibrary),
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "k",
+        description: Some("Launch Kitty"),
+    ): Spawn("/usr/bin/kitty"),
+}
