@@ -1,0 +1,80 @@
+{
+	"name": "tailwind-snippets",
+	"displayName": "Tailwind Snippets",
+	"description": "Tailwind Snippets is a powerful extension which generates any kind of components, sections for your web page. Start using Tailwind Snippets and design your website faster than ever.",
+	"version": "1.0.2",
+	"publisher": "Zarifprogrammer",
+	"engines": {
+		"vscode": "^1.20.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"icon": "images/icon.png",
+	"homepage": "https://tailwindsnippets.ml",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/components.code-snippets"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/components.code-snippets"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/components.code-snippets"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/components.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/components.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/components.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/components.code-snippets"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1749043648145,
+		"targetPlatform": "undefined",
+		"size": 1176050
+	}
+}

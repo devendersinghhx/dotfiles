@@ -1,0 +1,5 @@
+theme = "everforest_dark"
+
+# Line Numbers
+[editor]
+line-number = "relative" 
