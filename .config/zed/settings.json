@@ -1,0 +1,36 @@
+{
+    "features": {
+        "edit_prediction_provider": "zed"
+    },
+    "terminal": {
+        "dock": "bottom"
+    },
+    "project_panel": {
+        "dock": "left"
+    },
+    "vim_mode": true,
+    "autosave": {
+        "after_delay": {
+            "milliseconds": 1000
+        }
+    },
+    "format_on_save": "on",
+    "cursor_shape": "bar",
+    "hide_mouse": "on_typing",
+    "buffer_font_family": "JetBrainsMono Nerd Font",
+    "ui_font_size": 18,
+    "buffer_font_size": 18,
+    "theme": "Kanso Ink (No italics)",
+    "auto_install_extensions": {
+        "html": true,
+        "material-icon-theme": true,
+        "python-snippets": true,
+        "kanso": true,
+        "catppuccin-icons": true
+        // "java": true,
+        // "everforest": true,
+    },
+    "git_diff": true,
+    "show_completions_on_input": true,
+    "show_completion_documentation": true
+}

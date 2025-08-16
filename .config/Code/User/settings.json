@@ -1,0 +1,105 @@
+{
+    "css.lint.unknownAtRules": "ignore",
+    "tailwindCSS.includeLanguages": {
+        "html": "html",
+        "javascript": "javascript",
+        "css": "css"
+    },
+
+    // My Own Configurations
+    "material-icon-theme.hidesExplorerArrows": true,
+
+    // Font Settings
+    "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    // "editor.lineHeight": 22,
+    // "editor.letterSpacing": 0.5,
+
+    // Terminal
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.fontSize": 13,
+
+    // Indentation
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+
+    // Cursor
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+
+    // Files & Navigation
+    "files.autoSave": "onFocusChange",
+    "files.trimTrailingWhitespace": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false, // skip delete confirmation (be careful)
+    "files.exclude": {
+        "**/.git": false
+    },
+
+    // Code formatting
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+
+    // UI & Aesthetics
+    "window.customTitleBarVisibility": "auto",
+    "workbench.iconTheme": "charmmono-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.startupEditor": "none",
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 1.2,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "workbench.layoutControl.enabled": false,
+
+    // Bracket Pair Colorization
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": true,
+
+    // Tree view indentation (explorer, etc.)
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.enableStickyScroll": false,
+
+    // Code Runner Settings
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+
+    // Disable annoying updates or prompts
+    "extensions.ignoreRecommendations": false,
+    // "update.mode": "manual",
+
+    // Git Settings
+    "git.blame.editorDecoration.enabled": true,
+    "workbench.activityBar.location": "top",
+    "workbench.colorTheme": "Kanso Ink",
+
+    // Formatting
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true
+    },
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+    "C_Cpp.clang_format_style": "file",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "git.openRepositoryInParentFolders": "never",
+    "qt-qml.qmlls.useQmlImportPathEnvVar": true,
+    "workbench.secondarySideBar.defaultVisibility": "visible",
+    // "editor.glyphMargin": false
+    // Enable automatic suggestions inside strings, comments, and regular code.
+
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.suggest.showDetails": true
+}

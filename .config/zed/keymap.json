@@ -1,0 +1,28 @@
+[
+    // {
+    //     "context": "Workspace",
+    //     "bindings": {
+    //         "space f": "file_finder::Toggle",
+    //         "space w": "workspace::Save"
+    //     }
+    // },
+    {
+        "context": "Editor",
+        "bindings": {
+            // "j k": ["workspace::SendKeystrokes", "escape"]
+        }
+    },
+    {
+        "context": "Editor && vim_mode == visual && !VimWaiting && !VimObject",
+        "bindings": {
+            "K": "editor::MoveLineUp",
+            "J": "editor::MoveLineDown"
+        }
+    },
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-`": "workspace::ToggleBottomDock"
+        }
+    }
+]
